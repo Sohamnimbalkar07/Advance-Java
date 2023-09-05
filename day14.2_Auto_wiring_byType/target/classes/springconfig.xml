@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"
+	xmlns:context="http://www.springframework.org/schema/context">
+	
+	<!-- dependency bean config -->
+	
+	<!-- <bean id="test" class="dependency.TestTransport" />
+	<bean id="myTransport" class="dependency.HttpTransport" lazy-init="true" /> -->
+	<bean id="soap" class="dependency.SoapTransport" scope="prototype" /> 
+	
+	<!-- dependent bean -->
+	<bean id="my_atm" class="dependent.ATMImpl" init-method="myInit" destroy-method="myDestroy" autowire="byType" /> 
+	
+	</beans>

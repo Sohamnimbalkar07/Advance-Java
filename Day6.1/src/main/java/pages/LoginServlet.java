@@ -72,7 +72,7 @@ public class LoginServlet extends HttpServlet {
 		    {
 		    	//send in resp : valiadte user details
 //		    	pw.print("<h5> Login successful!!! </h5>" );
-	    	pw.print("<h5> Validated user Details :"+ user+" </h5>" );
+	    	pw.print("<h5> Validated user Details :"+ user+" </h5>" );//not appear
 	    	//save validated user details under min suitable scope (request) : used in server pull
 	    	request.setAttribute("user_dtls", user);
 	    	//RD steps

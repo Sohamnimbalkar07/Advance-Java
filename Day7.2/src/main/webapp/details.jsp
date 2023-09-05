@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h4> Successful login</h4>
+<h5> user Details : ${sessionScope.user_details}</h5>
+<%
+String encodeURL = response.encodeURL("logout.jsp"); 
+%>
+<h5> <a href="<%= encodeURL %>"> Log out</a></h5>
+</body>
+</html>
