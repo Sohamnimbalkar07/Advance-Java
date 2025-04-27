@@ -47,5 +47,3 @@ Welcome! This repository is a showcase of my hands-on projects while learning **
 - Solid understanding of **best practices** like **MVC** architecture, **DAO pattern**, and **unit testing** in Java.
 
 ---
-
-Thank you for reviewing my work! I'm excited to bring these skills into real-world projects and continue growing as a **Java Backend Developer**. I look forward to contributing to your team’s success!
