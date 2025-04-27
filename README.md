@@ -4,20 +4,6 @@ Welcome! This repository is a showcase of my hands-on projects while learning **
 
 ## 🚀 Technologies & Key Learnings
 
-### 🧩 **Servlets**
-- Learned the **Servlet lifecycle** (init, doGet, doPost, destroy) to handle HTTP requests and responses effectively.
-- Gained practical experience with **request/response handling** using `HttpServletRequest` and `HttpServletResponse`.
-- Mastered **session management** using **HTTP cookies** and **session tracking**.
-- Implemented **request forwarding** and **redirection** (e.g., login and error handling).
-- Built applications following the **MVC pattern** with servlets acting as controllers.
-- Integrated **JDBC** with servlets to manage data, validate user input, and retrieve information from a database.
-
-### 🧾 **JSP (JavaServer Pages)**
-- Developed **dynamic web pages** using **JSP** and **Java Expression Language (EL)** to display content.
-- Used **JSTL (JavaServer Pages Standard Tag Library)** for efficient iteration, conditionals, and formatting.
-- Implemented **form handling** in JSP for user interaction (e.g., login, registration forms).
-- Built the **view layer** in the **MVC architecture** while delegating business logic to servlets.
-
 ### 🌱 **Spring Framework**
 - Mastered **Dependency Injection (DI)** and **Inversion of Control (IoC)** in Spring, making code more modular and testable.
 - Configured Spring beans using **XML** and **Java-based configuration**.
@@ -38,6 +24,20 @@ Welcome! This repository is a showcase of my hands-on projects while learning **
 - Performed **CRUD operations** using **Hibernate** APIs, including **HQL** (Hibernate Query Language) and **Criteria API**.
 - Gained hands-on experience in **transaction management** and **lazy vs eager loading** strategies.
 - Integrated Hibernate with **Spring Boot** to streamline **ORM** and database management in a Spring context.
+  
+### 🧩 **Servlets**
+- Learned the **Servlet lifecycle** (init, doGet, doPost, destroy) to handle HTTP requests and responses effectively.
+- Gained practical experience with **request/response handling** using `HttpServletRequest` and `HttpServletResponse`.
+- Mastered **session management** using **HTTP cookies** and **session tracking**.
+- Implemented **request forwarding** and **redirection** (e.g., login and error handling).
+- Built applications following the **MVC pattern** with servlets acting as controllers.
+- Integrated **JDBC** with servlets to manage data, validate user input, and retrieve information from a database.
+
+### 🧾 **JSP (JavaServer Pages)**
+- Developed **dynamic web pages** using **JSP** and **Java Expression Language (EL)** to display content.
+- Used **JSTL (JavaServer Pages Standard Tag Library)** for efficient iteration, conditionals, and formatting.
+- Implemented **form handling** in JSP for user interaction (e.g., login, registration forms).
+- Built the **view layer** in the **MVC architecture** while delegating business logic to servlets.
 
 ## 💡 Skills Gained
 - In-depth understanding of **Java EE** concepts, including **Servlets** and **JSP** for web development.
